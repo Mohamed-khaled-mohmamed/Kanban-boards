@@ -1,17 +1,14 @@
-// import { ButtonIcon } from "@radix-ui/react-icons";
-// import { Button } from './components/ui/button'
-
 import Header from './components/Header/Header';
 import ProjectBoard from './components/ProjectBoard/ProjectBoard';
 import Sidebar from './components/Sidebar/Sidebar';
 import { GlobalStateProvider } from './lib/context/globalState';
 
 /**
- * Description
- * @returns {any}
+ * Application component that wraps the main layout.
+ * @returns {JSX.Element} The application component.
  */
 
-function App() {
+function App(): JSX.Element {
   return (
     <GlobalStateProvider>
       <div className="container h-screen m-auto">
@@ -26,5 +23,4 @@ function App() {
     </GlobalStateProvider>
   );
 }
-
 export default App;

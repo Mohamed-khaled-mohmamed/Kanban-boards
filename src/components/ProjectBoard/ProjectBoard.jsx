@@ -248,9 +248,7 @@ function ProjectBoard() {
       }
       return (
         <>
-          {task?.savePosition ? (
-            <h4 className="text-lg font-semibold mt-2">empty</h4>
-          ) : (
+          {task?.savePosition ? null : (
             <div
               className=" p-4 rounded-lg shadow-md bg-white flex justify-between items-start transition-all"
               style={{
