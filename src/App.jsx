@@ -8,7 +8,7 @@ import { GlobalStateProvider } from './lib/context/globalState';
  * @returns {JSX.Element} The application component.
  */
 
-function App(): JSX.Element {
+function App() {
   return (
     <GlobalStateProvider>
       <div className="container h-screen m-auto">
