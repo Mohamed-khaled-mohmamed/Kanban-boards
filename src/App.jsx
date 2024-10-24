@@ -5,7 +5,7 @@ import { GlobalStateProvider } from './lib/context/globalState';
 
 /**
  * Application component that wraps the main layout.
- * @returns {JSX.Element} The application component.
+ * @returns {eny} The application component.
  */
 
 function App() {
